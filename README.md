@@ -30,31 +30,5 @@ Zandacross is a terminal-based game engineered in C that handles continuous user
 <hr style="border-color: #30363d;" />
 
 <div align="center" style="margin-top: 40px; margin-bottom: 20px;">
-  
-  <style>
-    @keyframes textFlicker {
-      0%, 100% { opacity: 1; text-shadow: 0 0 4px rgba(88,166,255,0.6); }
-      41% { opacity: 1; }
-      42% { opacity: 0.85; }
-      43% { opacity: 0.95; }
-      45% { opacity: 0.3; text-shadow: none; }
-      46% { opacity: 0.9; }
-      48% { opacity: 0.7; }
-      49% { opacity: 0.95; }
-      50% { opacity: 1; }
-      93% { opacity: 1; }
-      94% { opacity: 0.75; }
-      95% { opacity: 0.9; }
-    }
-    .flicker-terminal-text {
-      font-family: 'Courier New', monospace;
-      font-size: 1.6em;
-      font-weight: bold;
-      color: #58a6ff;
-      letter-spacing: 2px;
-      animation: textFlicker 3s infinite;
-    }
-  </style>
-
-  <span class="flicker-terminal-text">Thankyou for your interaction _</span>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=58a6ff&background=0D111700&center=true&vCenter=true&width=500&lines=Thank+you+for+your+interaction.+%5B+%E2%96%88+%5D;Thank+you+for+your+interaction.+%5B+%5D" alt="Typing Animation" />
 </div>
