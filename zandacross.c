@@ -4,6 +4,7 @@
 
 int main()
 {
+    
     srand(time(0)); // This command is for seeding the code or you can say it is for giving it a starting point.
     int number_of_guesses=0;
     int random_number = rand() % 100 + 1; // This command is for generating a random number between 1 to 100 since rand() generates a random number between 0 to RAND_MAX, we use the modulus operator to limit the range and add 1 to shift it from 0-99 to 1-100.
